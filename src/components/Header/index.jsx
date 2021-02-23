@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from './style.module.scss';
+import styles from "./style.module.scss";
 
 export default class Header extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class Header extends Component {
               <div className={styles["nav-item"]}>BOOKING</div>
             </nav>
             <div className={styles.logo}>
-              <img src="/logo.svg" alt="Hungry People"/>
+              <img src="/logo.svg" alt="Hungry People" />
             </div>
             <nav className={`${styles.nav_right} ${styles.nav}`}>
               <div className={styles["nav-item"]}>MENU</div>
