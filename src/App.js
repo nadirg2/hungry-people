@@ -1,10 +1,14 @@
-import { Main } from "./components";
+import { Main, AboutUs, OurTeam } from "./components";
 
 function App() {
   return (
-    <>
-      <Main/>
-    </>
+    <div className="wrapper">
+      <div className="content">
+        <Main />
+        <AboutUs/>
+        <OurTeam/>
+      </div>
+    </div>
   );
 }
 

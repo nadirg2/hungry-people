@@ -1,0 +1,15 @@
+@import "../section.module.scss";
+.section_our-team {
+  background: url("our-team-bg.png");
+  .section-img {
+    margin-right: 80px;
+    margin-left: 125px;
+    .section-img__rectangle {
+      right: unset;
+      left: -125px;
+    }
+  }
+  .section-text {
+    color: #fff;
+  }
+}

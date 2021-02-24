@@ -1,0 +1,33 @@
+@mixin Heading_2 {
+    font-family: Banny Bold Round;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  @mixin Heading_1 {
+    font-family: Banny Bold Round;
+    font-size: 96px;
+    text-transform: uppercase;
+  }
+  @mixin Caption {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  
+  }
+  @mixin flex {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+  
+  @mixin under-line{
+    background: #E8C300;
+    border-radius: 50px;
+    width: 60px;
+    height: 5px;
+  }
