@@ -80,6 +80,32 @@ export default class Main extends Component {
               </div>
             </div>
           </section>
+          <section className={`${styles["section"]} ${styles["section_our-team"]}`}>
+            <div className="container">
+              <div className={styles["section__title"]}>OUR TEAM</div>
+              <div className={styles.section__row}>
+                <div className={styles["section-img"]}>
+                  <img src="/our-team.png" alt="MASTER CHEF" />
+                  <div className={styles["section-img__rectangle"]} />
+                </div>
+                <div className={styles["section-text"]}>
+                  <div className={styles["section-text__title"]}>MASTER CHEF</div>
+                  <div className={styles["section-text__under-line"]} />
+                  <div className={styles["section-text__bold"]}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.
+                  </div>
+                  <div className={styles["section-text__text"]}>
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi
+                    non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
+                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                    pharetra. Nulla facilisis semper laoreet.
+                  </div>
+                </div>
+              </div>
+              <div className={styles.section__spacer}/>
+            </div>
+          </section>
         </div>
       </div>
     );

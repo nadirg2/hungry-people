@@ -9,6 +9,16 @@
   font-size: 96px;
   text-transform: uppercase;
 }
+@mixin Caption {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
 @mixin flex {
   display: -webkit-flex;
   display: -ms-flex;
@@ -167,9 +177,17 @@
 
 .section{
   height: 90vh;
-  min-height: 675px;
+  min-height: 676px;
   @include flex;
   align-items: center;
+  .section__title{
+    margin: 43px auto;
+    text-align: center;
+    @include Caption;
+  }
+  .section__spacer{
+    height: 100px;
+  }
   .section__row{
     @include flex;
     justify-content: space-between;
@@ -206,6 +224,7 @@
   .section-img{
     position: relative;
     margin-right: 125px;
+    margin-left: 80px;
     img{
       filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
       border-radius: 5px;
@@ -222,5 +241,19 @@
       top: calc(50% - 125px);
       right: -125px;
     }
+  }
+}
+.section_our-team{
+  background: url("our-team-bg.png");
+  .section-img{
+    margin-right: 80px;
+    margin-left: 125px;
+    .section-img__rectangle{
+      right: unset;
+      left: -125px;
+    }
+  }
+  .section-text{
+    color: #fff;
   }
 }
