@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "./style.module.scss";
 
-const OurTeam = () => {
+const Specialties = () => {
   return (
-    <section className={`${styles["section"]} ${styles["section_our-team"]}`}>
+    <section className={`${styles["section"]} ${styles["section_specialties"]}`}>
       <div className="container">
-        <div className={styles["section__title"]}>OUR TEAM</div>
+        <div className={styles["section__title"]}>specialties</div>
         <div className={styles.section__row}>
           <div className={`${styles["section-img"]} ${styles["section-img_left"]}`}>
-            <img src="/our-team.png" alt="MASTER CHEF" />
+            <img src="/specialties.png" alt="Chocolate Pancakes" />
             <div className={styles["section-img__rectangle"]} />
           </div>
           <div className={`${styles["section-text"]} ${styles["section-text_white"]}`}>
-            <div className={styles["section-text__title"]}>MASTER CHEF</div>
+            <div className={styles["section-text__title"]}>chocolate pancakes</div>
             <div className={styles["section-text__under-line"]} />
             <div className={styles["section-text__bold"]}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
@@ -32,4 +32,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default Specialties;

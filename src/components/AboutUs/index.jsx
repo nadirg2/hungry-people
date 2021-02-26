@@ -6,7 +6,7 @@ const AboutUs = () => {
         <section className={`${styles["section"]} ${styles["section_about-us"]}`}>
             <div className="container">
               <div className={styles.section__row}>
-                <div className={styles["section-text"]}>
+                <div className={`${styles["section-text"]} ${styles["section-text_black"]}`}>
                   <div className={styles["section-text__title"]}>ABOUT US</div>
                   <div className={styles["section-text__under-line"]} />
                   <div className={styles["section-text__bold"]}>
@@ -20,7 +20,7 @@ const AboutUs = () => {
                     pharetra. Nulla facilisis semper laoreet.
                   </div>
                 </div>
-                <div className={styles["section-img"]}>
+                <div className={`${styles["section-img"]} ${styles["section-img_right"]}`}>
                   <img src="/about-img.jpg" alt="ABOUT US" />
                   <div className={styles["section-img__rectangle"]} />
                 </div>

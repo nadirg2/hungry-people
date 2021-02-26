@@ -33,7 +33,7 @@ export const Book = () => {
               <PrimaryButton width='100%' type='submit' >BOOK NOW</PrimaryButton>
             </form>
           </div>
-          <div className={styles["section-img"]}>
+          <div className={`${styles["section-img"]} ${styles["section-img_right"]}`}>
             <img src="/book-a-table.jpg" alt="book a table" />
             <div className={styles["section-img__rectangle"]} />
           </div>
