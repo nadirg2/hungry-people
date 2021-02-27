@@ -1,7 +1,6 @@
 @import "styles.module.scss";
 .section {
   height: fit-content;
-  min-height: 676px;
   @include flex;
   align-items: center;
   background: center/cover no-repeat;
