@@ -6,3 +6,4 @@ export { Book } from './Book';
 export {default as Specialties} from './Specialties';
 export {default as Events} from './Events';
 export {default as Menu} from './Menu'
+export {default as Gallery} from './Gallery'

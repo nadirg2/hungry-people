@@ -1,0 +1,8 @@
+@import "../styles.module.scss";
+.section__row {
+  @include flex;
+  .section__img {
+    height: auto;
+    width: 25%;
+  }
+}
