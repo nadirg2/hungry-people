@@ -1,4 +1,4 @@
-import { Main, AboutUs, OurTeam, Book, Specialties, Menu } from "./components";
+import { Main, AboutUs, OurTeam, Book, Specialties, Menu, Events } from "./components";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -16,6 +16,7 @@ function App() {
           <Specialties />
         </Carousel>
         <Menu/>
+        <Events/>
       </div>
     </div>
   );

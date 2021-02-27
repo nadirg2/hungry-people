@@ -17,8 +17,8 @@ function Book() {
             </div>
           </div>
           <ul className={styles["sub-menu"]}>
-            {subMenuItems.map((subMenuItem) => (
-              <li className={styles["sub-menu__item"]}>{subMenuItem}</li>
+            {subMenuItems.map((subMenuItem, index) => (
+              <li key={index} className={styles["sub-menu__item"]}>{subMenuItem}</li>
             ))}
           </ul>
           <ul className={styles.menu}>
