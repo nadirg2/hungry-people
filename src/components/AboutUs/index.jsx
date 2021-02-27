@@ -22,7 +22,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className={`${styles["section-img"]} ${styles["section-img_right"]}`}>
-            <img src="/about-img.jpg" alt="ABOUT US" />
+            <img src="about-img.jpg" alt="ABOUT US" />
             <div className={styles["section-img__rectangle"]} />
           </div>
         </div>
