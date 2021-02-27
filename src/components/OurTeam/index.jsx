@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./style.module.scss";
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const OurTeam = () => {
   return (
-    <ScrollableAnchor id={'team'} className={`${styles["section"]} ${styles["section_our-team"]}`}>
+    <section id={'team'} className={`${styles["section"]} ${styles["section_our-team"]}`}>
       <div className="container">
         <div className={styles["section__title"]}>OUR TEAM</div>
         <div className={styles.section__row}>
@@ -29,7 +29,7 @@ const OurTeam = () => {
         </div>
         <div className={styles.section__spacer} />
       </div>
-    </ScrollableAnchor>
+    </section>
   );
 };
 

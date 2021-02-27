@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./style.module.scss";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default class Header extends Component {
   render() {
@@ -8,19 +9,19 @@ export default class Header extends Component {
         <div className="container">
           <div className={styles["header__row"]}>
             <nav className={`${styles.nav_left} ${styles.nav}`}>
-              <a href={"#home"} className={styles["nav-item"]}>HOME</a>
-              <a href={"#about"} className={styles["nav-item"]}>ABOUT</a>
-              <a href={"#team"} className={styles["nav-item"]}>TEAM</a>
-              <a href={"#booking"} className={styles["nav-item"]}>BOOKING</a>
+              <AnchorLink href={"#home"} className={styles["nav-item"]}>HOME</AnchorLink>
+              <AnchorLink href={"#about"} className={styles["nav-item"]}>ABOUT</AnchorLink>
+              <AnchorLink href={"#team"} className={styles["nav-item"]}>TEAM</AnchorLink>
+              <AnchorLink href={"#booking"} className={styles["nav-item"]}>BOOKING</AnchorLink>
             </nav>
             <div className={styles.logo}>
               <img src="logo.svg" alt="Hungry People" />
             </div>
             <nav className={`${styles.nav_right} ${styles.nav}`}>
-              <a href={"#menu"} className={styles["nav-item"]}>MENU</a>
-              <a href={"#galerie"} className={styles["nav-item"]}>GALERIE</a>
-              <a href={"#events"} className={styles["nav-item"]}>EVENTS</a>
-              <a href={"#contact"} className={styles["nav-item"]}>CONTACT</a>
+              <AnchorLink href={"#menu"} className={styles["nav-item"]}>MENU</AnchorLink>
+              <AnchorLink href={"#galerie"} className={styles["nav-item"]}>GALERIE</AnchorLink>
+              <AnchorLink href={"#events"} className={styles["nav-item"]}>EVENTS</AnchorLink>
+              <AnchorLink href={"#contact"} className={styles["nav-item"]}>CONTACT</AnchorLink>
             </nav>
           </div>
         </div>

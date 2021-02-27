@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./style.module.scss";
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Book() {
   const subMenuItems = ["SOUPE", "PIZZA", "PASTA", "DESERT", "WINE", "BEER", "DRINKS"];
   return (
-    <ScrollableAnchor id={'menu'} className={`${styles.section} ${styles.section_menu}`}>
+    <section id={'menu'} className={`${styles.section} ${styles.section_menu}`}>
       <div className="container">
         <div className={styles.section__row}>
           <div className={styles.section__spacer} />
@@ -38,7 +38,7 @@ function Book() {
           <div className={styles.section__spacer} />
         </div>
       </div>
-    </ScrollableAnchor>
+    </section>
   );
 }
 

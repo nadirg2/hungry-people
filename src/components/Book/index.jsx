@@ -3,11 +3,11 @@ import styles from "./style.module.scss";
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PrimaryButton } from '../Button';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export const Book = () => {
   return (
-    <ScrollableAnchor id={'booking'} className={`${styles.section} ${styles.section__book}`}>
+    <section id={'booking'} className={`${styles.section} ${styles.section__book}`}>
       <div className="container">
         <div className={styles.section__spacer} />
         <div className={styles.section__row}>
@@ -43,6 +43,6 @@ export const Book = () => {
           Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
         </div>
       </div>
-    </ScrollableAnchor>
+    </section>
   );
 };

@@ -3,11 +3,10 @@ import styles from "./style.module.scss";
 import { PrimaryButton } from "../Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 export default function Contact() {
   return (
-    <ScrollableAnchor id={'contact'} className={`${styles.section} ${styles.section_contact}`}>
+    <section id={'contact'} className={`${styles.section} ${styles.section_contact}`}>
       <div className="container">
         <div className={styles.section__spacer} />
         <div className={styles.section__row}>
@@ -45,6 +44,6 @@ export default function Contact() {
         </div>
         <div className={styles.section__spacer} />
       </div>
-    </ScrollableAnchor>
+    </section>
   );
 }

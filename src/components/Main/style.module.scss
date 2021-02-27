@@ -95,7 +95,13 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    transition: all .25s ease-in;
+    cursor: pointer;
     margin-bottom: 20px;
+  }
+  .social-network__item:hover {
+    color: #000;
+    background-color: #fff;
   }
 }
 
@@ -133,6 +139,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 50px;
+      color: #000;
       font-size: 20px;
     }
   }
