@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hungry-people/static/css/main.14d9ee7a.chunk.css",
-    "main.js": "/hungry-people/static/js/main.96d924aa.chunk.js",
-    "main.js.map": "/hungry-people/static/js/main.96d924aa.chunk.js.map",
+    "main.js": "/hungry-people/static/js/main.34518742.chunk.js",
+    "main.js.map": "/hungry-people/static/js/main.34518742.chunk.js.map",
     "runtime-main.js": "/hungry-people/static/js/runtime-main.fd40c259.js",
     "runtime-main.js.map": "/hungry-people/static/js/runtime-main.fd40c259.js.map",
     "static/css/2.631cbb15.chunk.css": "/hungry-people/static/css/2.631cbb15.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.631cbb15.chunk.css",
     "static/js/2.2af374a1.chunk.js",
     "static/css/main.14d9ee7a.chunk.css",
-    "static/js/main.96d924aa.chunk.js"
+    "static/js/main.34518742.chunk.js"
   ]
 }
