@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hungry-people/static/css/main.14d9ee7a.chunk.css",
+    "main.js": "/hungry-people/static/js/main.96d924aa.chunk.js",
+    "main.js.map": "/hungry-people/static/js/main.96d924aa.chunk.js.map",
+    "runtime-main.js": "/hungry-people/static/js/runtime-main.fd40c259.js",
+    "runtime-main.js.map": "/hungry-people/static/js/runtime-main.fd40c259.js.map",
+    "static/css/2.631cbb15.chunk.css": "/hungry-people/static/css/2.631cbb15.chunk.css",
+    "static/js/2.2af374a1.chunk.js": "/hungry-people/static/js/2.2af374a1.chunk.js",
+    "static/js/2.2af374a1.chunk.js.map": "/hungry-people/static/js/2.2af374a1.chunk.js.map",
+    "index.html": "/hungry-people/index.html",
+    "static/css/2.631cbb15.chunk.css.map": "/hungry-people/static/css/2.631cbb15.chunk.css.map",
+    "static/css/main.14d9ee7a.chunk.css.map": "/hungry-people/static/css/main.14d9ee7a.chunk.css.map",
+    "static/js/2.2af374a1.chunk.js.LICENSE.txt": "/hungry-people/static/js/2.2af374a1.chunk.js.LICENSE.txt",
+    "static/media/style.module.scss": "/hungry-people/static/media/specialtys-bg.2917453b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd40c259.js",
+    "static/css/2.631cbb15.chunk.css",
+    "static/js/2.2af374a1.chunk.js",
+    "static/css/main.14d9ee7a.chunk.css",
+    "static/js/main.96d924aa.chunk.js"
+  ]
+}
