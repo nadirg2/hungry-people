@@ -8,11 +8,11 @@ function Events() {
         <div className={styles["section__title"]}>PRIVATE EVENTS</div>
         <div className={styles.section__row}>
           <div className={`${styles["section-img"]} ${styles["section-img_left"]}`}>
-            <img src="/weddings.jpg" alt="Weddings" />
+            <img src="https://nadirg2.github.io/hungry-people/weddings.jpg" alt="Weddings" />
             <div className={styles["section-img__rectangle"]} />
           </div>
           <div className={`${styles["section-img"]} ${styles["section-img_right"]}`}>
-            <img src="/corporate-pzrties.jpg" alt="Corporate Pzrties" />
+            <img src="https://nadirg2.github.io/hungry-people/corporate-pzrties.jpg" alt="Corporate Pzrties" />
             <div className={styles["section-img__rectangle"]} />
           </div>
         </div>

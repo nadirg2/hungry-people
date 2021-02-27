@@ -34,7 +34,7 @@ export const Book = () => {
             </form>
           </div>
           <div className={`${styles["section-img"]} ${styles["section-img_right"]}`}>
-            <img src="/book-a-table.jpg" alt="book a table" />
+            <img src="https://nadirg2.github.io/hungry-people/book-a-table.jpg" alt="book a table" />
             <div className={styles["section-img__rectangle"]} />
           </div>
         </div>
