@@ -5,11 +5,13 @@ import { PrimaryButton, OutlineButton } from "../Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import ScrollableAnchor from 'react-scrollable-anchor';
+
 
 export default class Main extends Component {
   render() {
     return (
-      <main className={styles.main}>
+      <ScrollableAnchor id={'main'} className={styles.main}>
         <Header />
         <div className="container">
           <div className={styles.main__row}>
@@ -53,7 +55,7 @@ export default class Main extends Component {
             </div>
           </div>
         </div>
-      </main>
+      </ScrollableAnchor>
     );
   }
 }
