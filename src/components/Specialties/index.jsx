@@ -8,7 +8,7 @@ const Specialties = () => {
         <div className={styles["section__title"]}>specialties</div>
         <div className={styles.section__row}>
           <div className={`${styles["section-img"]} ${styles["section-img_left"]}`}>
-            <img src="https://nadirg2.github.io/hungry-people/specialties.png" alt="Chocolate Pancakes" />
+            <img src="/specialties.png" alt="Chocolate Pancakes" />
             <div className={styles["section-img__rectangle"]} />
           </div>
           <div className={`${styles["section-text"]} ${styles["section-text_white"]}`}>
